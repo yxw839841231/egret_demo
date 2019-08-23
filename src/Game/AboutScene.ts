@@ -16,10 +16,10 @@ class AboutScene extends eui.Component implements  eui.UIComponent {
 	{
 		super.childrenCreated();
 		
-		this.lab_about.text = `
-		关于我们
-		版权所有 仿冒必究
-		`
+		// this.lab_about.text = `
+		// 关于我们
+		// 123
+		// `
 
 		this.btn_close.addEventListener(egret.TouchEvent.TOUCH_TAP, (e)=>{
 			SceneManager.toMainScene()

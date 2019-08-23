@@ -18,7 +18,10 @@ var AboutScene = (function (_super) {
     };
     AboutScene.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
-        this.lab_about.text = "\n\t\t\u5173\u4E8E\u6211\u4EEC\n\t\t\u7248\u6743\u6240\u6709 \u4EFF\u5192\u5FC5\u7A76\n\t\t";
+        // this.lab_about.text = `
+        // 关于我们
+        // 123
+        // `
         this.btn_close.addEventListener(egret.TouchEvent.TOUCH_TAP, function (e) {
             SceneManager.toMainScene();
             SceneManager.instance.mainScene.toggleBtn(0);
